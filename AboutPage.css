@@ -1,0 +1,93 @@
+/* AboutPage.css */
+.about-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 40px 20px;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 60px 40px;
+}
+
+.about-page h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-section {
+  padding: 20px 0;
+}
+
+.about-section h2 {
+  font-size: 1.8rem;
+  color: #667eea;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-section li {
+  font-size: 1.1rem;
+  color: #666;
+  padding: 8px 0;
+  position: relative;
+  padding-left: 25px;
+}
+
+.about-section li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-page {
+    padding: 20px 10px;
+  }
+  
+  .about-container {
+    padding: 40px 20px;
+  }
+  
+  .about-page h1 {
+    font-size: 2.5rem;
+  }
+  
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .about-section p,
+  .about-section li {
+    font-size: 1rem;
+  }
+}

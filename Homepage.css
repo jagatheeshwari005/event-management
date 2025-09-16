@@ -1,0 +1,12 @@
+/* HomePage Styles */
+.homepage {
+  min-height: 100vh;
+  background: #f5f7fb;
+  width: 100%;
+}
+
+.home-container {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
